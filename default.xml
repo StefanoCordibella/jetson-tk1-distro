@@ -6,6 +6,7 @@
   <remote fetch="https://github.com/meta-qt5/" name="qt5"/>
   <remote fetch="https://github.com/watatuki/" name="watatuki" />
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/dv1" name="gstreamer1.0"/>
 
   <default sync-j="4" revision="fido"/>
 
