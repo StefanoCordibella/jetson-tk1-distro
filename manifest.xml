@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://git.linaro.org/openembedded/" name="linaro" />
+  <remote fetch="https://github.com/meta-qt5/" name="qt5"/>
+  <remote fetch="https://github.com/watatuki/" name="watatuki" />
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+
+  <default sync-j="4" revision="fido"/>
+
+  <project path="sources/poky" remote="yocto" name="poky" />
+  <project path="sources/meta-linaro" remote="linaro" name="meta-linaro.git"  />
+  <project path="sources/meta-qt5" remote="qt5" name="meta-qt5.git" revision="jethro" /> 
+  <project path="sources/meta-jetson-tk1" remote="watatuki" name="meta-jetson-tk1.git" />
+  <project path="sources/meta-openembedded" remote="oe" name="meta-openembedded" />
+
+</manifest>
