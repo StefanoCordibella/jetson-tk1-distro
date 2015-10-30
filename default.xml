@@ -6,7 +6,8 @@
   <remote fetch="https://github.com/meta-qt5/" name="qt5"/>
   <remote fetch="https://github.com/watatuki/" name="watatuki" />
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/dv1" name="gstreamer1.0"/>
+  <remote fetch="https://github.com/dv1" name="gstreamer"/>
+  <remote fetch="https://github.com/StefanoCordibella" name="juba"/>
 
   <default sync-j="4" revision="fido"/>
 
@@ -15,5 +16,7 @@
   <project path="sources/meta-qt5" remote="qt5" name="meta-qt5.git" revision="jethro" /> 
   <project path="sources/meta-jetson-tk1" remote="watatuki" name="meta-jetson-tk1.git" />
   <project path="sources/meta-openembedded" remote="oe" name="meta-openembedded" />
+  <project path="sources/meta-gstreamer1.0" remote="gstreamer" name="meta-gstreamer1.0.git" revision="master"/>
+  <project path="." remote="juba" name="jetson-tk1-conf.git" revision="master"/>
 
 </manifest>
